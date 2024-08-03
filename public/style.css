@@ -1,0 +1,60 @@
+
+body{
+    background-color: maroon;
+    font-style: italic;
+    background-image: url("https://cdn.wallpapersafari.com/28/9/Y2NJpk.jpg");
+    background-size: cover;
+}
+h1{
+    color: rgb(19, 18, 18);
+    text-align: center;
+}
+h2{
+    color: rgb(18, 2, 2);
+    text-align: center;
+    text-decoration: wavy;
+}
+.post{
+    background-color: lightblue;
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 2px;
+    opacity: 0.8;
+}
+.post:hover{
+    opacity: 1;
+}
+.user{
+    padding: 0.5rem;
+}
+.content{
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+
+.btn{
+    background-color: dodgerblue;
+    text-decoration: none;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 1;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+@media(max-width:400px){
+    div{
+        height: 350px;
+        width: 100%;
+    }
+}
