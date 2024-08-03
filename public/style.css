@@ -5,6 +5,26 @@ body{
     background-image: url("https://cdn.wallpapersafari.com/28/9/Y2NJpk.jpg");
     background-size: cover;
 }
+.title{
+    text-align: center;
+    color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25rem;
+}
+.next{
+    background-color: dodgerblue;
+    height: 40px;
+    width: 100px;
+}
+.next a{
+    color: white;
+    font-size: 20px;
+}
 h1{
     color: rgb(19, 18, 18);
     text-align: center;
